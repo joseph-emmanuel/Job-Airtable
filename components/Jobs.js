@@ -7,6 +7,7 @@ export const Jobs = ({ job }) => {
       <p>{job.fields.Description}</p>
       <div className="border-t-[2px] mt-[60px] pt-[15px] border-[#bcd888]">
         <p>Posted on {job.fields.PostedOn}</p>
+        <p>Posted on {job.id}</p>
       </div>
     </div>
   );
