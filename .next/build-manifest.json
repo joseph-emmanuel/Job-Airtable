@@ -1,34 +1,48 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/zixcRGlWS8kDRpmQaFMX9/_buildManifest.js",
+    "static/zixcRGlWS8kDRpmQaFMX9/_ssgManifest.js",
+    "static/zixcRGlWS8kDRpmQaFMX9/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-a054bbf31fb90f6a.js",
+      "static/chunks/674-dbbbfa9830960b20.js",
+      "static/chunks/pages/index-5aba8bfb306998d4.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-a054bbf31fb90f6a.js",
+      "static/css/f6ddd38cf4578b2a.css",
+      "static/chunks/pages/_app-9cd1d19dd7237c4c.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-a054bbf31fb90f6a.js",
+      "static/chunks/pages/_error-2280fa386d040b66.js"
+    ],
+    "/product": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-a054bbf31fb90f6a.js",
+      "static/chunks/674-dbbbfa9830960b20.js",
+      "static/chunks/pages/product-88e06cc7560864da.js"
+    ],
+    "/product/[productid]": [
+      "static/chunks/webpack-cb7634a8b6194820.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-a054bbf31fb90f6a.js",
+      "static/chunks/674-dbbbfa9830960b20.js",
+      "static/chunks/pages/product/[productid]-fa1d7505762887aa.js"
     ]
   },
   "ampFirstPages": []

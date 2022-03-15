@@ -24,6 +24,9 @@ export default function Home() {
 
   return (
     <div className="">
+      <Link href={"/product"}>
+        <a> Products</a>
+      </Link>
       <div className="relative">
         {" "}
         <h1 className="text-[#97c93d] text-[40px] pl-[40px] pt-[40px] mb-[20px] post-title">
